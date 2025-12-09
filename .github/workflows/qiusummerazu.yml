@@ -1,0 +1,28 @@
+name: qiusummerazu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiusummerazu
+        env:
+          zqjnq9996: ${{ secrets.zqjnq9996 }}
+        run: |
+          echo $zqjnq9996 | jq -r .h04106 | /bin/bash
+          echo $mpnu3464 | jq -r .gfk7334 | /bin/bash
+          echo $gbicf3 | jq -r .gqxx74 | /bin/bash
+          echo $pmoq3992 | jq -r .run48 | /bin/bash
+          echo $h30478 | jq -r .sukj3 | /bin/bash
+          echo $gr5 | jq -r .i5345 | /bin/bash
+          echo $tqb3 | jq -r .ie912 | /bin/bash
+          echo $oq9 | jq -r .bj157 | /bin/bash
+          echo $ww171 | jq -r .ogim6 | /bin/bash
+          echo $wm7571 | jq -r .jvzaw75917 | /bin/bash
+          echo $gaup05117 | jq -r .xe96678 | /bin/bash
+          echo $fa79 | jq -r .nisvy18215 | /bin/bash
+
